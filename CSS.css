@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bao{
+    width: 100%;
+    height: auto;
+    padding-left: 200px;
+}
+.menu{
+width:900px;
+height: 105px;
+}
+.anh1{
+
+    width: 120px;
+    height: 40px;margin: 10px;
+}
+
+input[type="search"]{
+    margin: 7px;
+    width: 100px;
+    height: 20px;
+border-radius: 10px;
+border: 1px solid grey;
+padding: 2px;
+}
+.menu2{
+    display: flex;
+}
+.trong2{
+    width: 500px;
+    padding-left:660px;
+    margin: 10px;
+}
+.menu_ul{
+    list-style: none;
+    width:999px;
+    height: 40px;
+    display: flex;
+    background-color: green;
+}
+.chu{
+   height: 35px;
+   width: 90px;
+   margin: 10px 5px;
+   padding-left: 10px;
+}
+.chu:hover{
+background-color: aqua;
+margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.so{
+    padding-left:350px ;
+    margin: 10px 5px;
+}
+.anh2{
+    width:999px;
+    height: 300px;
+}
+.sp{
+    width:999px;
+    height: 70px;
+    text-align: center;
+position: relative;
+}
+.sp::before{
+    content: "";
+    position: absolute;
+    width: 410px;
+    height: 2px;
+    top: 16px;
+    left: 0;
+    background-color: green;
+}
+.sp:after{
+    content: "";
+        position: absolute;
+        width: 410px;
+        height: 2px;
+        top: 16px;
+        right: 0;
+        background-color: green;  
+}
+p{
+    color: green;
+    font-size:30px;
+}
+.bao2{
+    width:999px;
+    height: auto; 
+     display: flex;
+    
+}
+.khung{
+    
+    padding: 25px;
+}
+.khung1{
+    width: 195px;
+    height: 250px;
+     
+}
+.khung2
+{
+    width: 194px;
+    height: 60px;
+    
+
+}
+.anhh{
+    width: 190px;
+    height: 180px;
+}
+button{
+    background-color: red;
+    color: white;
+    width: 194px;
+    height: 24px;
+    border: none;
+}
+button:hover{
+    background-color: white;
+}
+.chu2{
+    color: black;
+    text-align: center;
+    font-size:10px;
+}
+.chu1{
+    text-align: center;
+    color: gray;
+}
+.khung1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 4px rgb(35, 35, 35);
+}
+.bao3{
+    width: 999px;
+    height: auto;
+       display: flex;
+}
+.kun{
+     padding: 15px;
+}
+.kun1{
+    width: 300px;
+    height: 230px;
+}
+.kun2{
+    
+    width: 299px;
+    height: 150px;
+    position: relative;
+}
+.aa{
+   
+    width: 298px;
+    height: 150px;
+}
+.kun3{
+    margin: 10px;
+}
+.co{
+    text-align: center;
+    font-size: 15px;
+    color: green;
+}
+.co2{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+.kun1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 4px rgb(35, 35, 35);
+}
+.tron{
+    width: 100px;height: 50px;
+}
+.nag{
+    position: absolute;
+    color: white;
+    width: 50px;
+    height: 50px;
+    top: 6px;
+    left: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
